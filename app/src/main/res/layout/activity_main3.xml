@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHOOSE YOUR OPTIONS" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOCK" />
+
+        <Spinner
+            android:id="@+id/s1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NO. OF DAYS TO PREDICT FOR" />
+
+        <Spinner
+            android:id="@+id/s2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView3325"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRICE TYPE" />
+
+        <Spinner
+            android:id="@+id/s3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView7392"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OPTIMIZER ALGORITHM" />
+
+        <Spinner
+            android:id="@+id/s4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/subops"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT" />
+    </TableRow>
+
+<!--    <TableRow-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:gravity="center_horizontal">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/resett"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="RESET" />-->
+<!--    </TableRow>-->
+
+<!--    <TableRow-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:gravity="center_horizontal">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/texty"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:text="" />-->
+<!--    </TableRow>-->
+
+<!--    <TableRow-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:gravity="center_horizontal">-->
+
+<!--        <com.jjoe64.graphview.GraphView-->
+
+<!--            android:layout_width="300dp"-->
+<!--            android:visibility="invisible"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:id="@+id/gvw"-->
+<!--            />-->
+
+
+
+<!--    </TableRow>-->
+
+
+
+
+
+
+</TableLayout>

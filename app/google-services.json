@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "500232656978",
+    "firebase_url": "https://stockprediction-c1d5d.firebaseio.com",
+    "project_id": "stockprediction-c1d5d",
+    "storage_bucket": "stockprediction-c1d5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500232656978:android:1ba983dc04bc519c98e78b",
+        "android_client_info": {
+          "package_name": "com.vineetnet.stockprediction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500232656978-s9l9gip06qamkvsmjkepr8t1k7lgl8nk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vineetnet.stockprediction",
+            "certificate_hash": "a9f8be563199367d972af0e16a9fba73c8e1414a"
+          }
+        },
+        {
+          "client_id": "500232656978-8s9p4vmgu6g01d1f3lfqlei5t0eqm1to.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFp8s-L3ibYSCl9Ynh1BntURwULNWzj54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500232656978-8s9p4vmgu6g01d1f3lfqlei5t0eqm1to.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
